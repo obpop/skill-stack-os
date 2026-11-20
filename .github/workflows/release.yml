@@ -1,0 +1,64 @@
+name: Production release
+
+on:
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: Deploy after publishing immutable images
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile
+          push: true
+          build-args: RELEASE_VERSION=${{ github.sha }}
+          tags: ghcr.io/${{ github.repository_owner }}/skill-stack-frontend:${{ github.sha }}
+      - uses: docker/build-push-action@v6
+        with:
+          context: backend
+          file: backend/Dockerfile
+          push: true
+          build-args: RELEASE_VERSION=${{ github.sha }}
+          tags: ghcr.io/${{ github.repository_owner }}/skill-stack-backend:${{ github.sha }}
+
+  deploy:
+    if: inputs.deploy
+    needs: publish
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Configure pinned deployment host identity
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+      - name: Deploy immutable release and run smoke checks
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+          RELEASE_VERSION: ${{ github.sha }}
+        run: ssh "$DEPLOY_USER@$DEPLOY_HOST" "cd '$DEPLOY_PATH' && sh ./deploy/scripts/release.sh '$RELEASE_VERSION'"

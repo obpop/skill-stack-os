@@ -1,0 +1,6 @@
+package com.skillstack.graph.domain;
+
+public enum NodeType {
+    IDENTITY, INTEREST, SKILL, KNOWLEDGE, VALUE, GOAL, IDEA, PROJECT,
+    PERSON, BOOK, INDUSTRY, PROOF_OF_WORK, DOMAIN, INTERSECTION
+}

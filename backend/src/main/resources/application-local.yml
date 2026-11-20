@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+    # Local runs read optional settings (such as the OpenAI key) from the gitignored backend/.env file.
+    import: optional:file:.env[.properties]
+
+skillstack:
+  demo-seed-enabled: ${DEMO_SEED_ENABLED:true}
+  rate-limit:
+    enabled: ${RATE_LIMIT_ENABLED:false}

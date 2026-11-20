@@ -1,0 +1,94 @@
+spring:
+  application:
+    name: skill-stack-backend
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/skillstack}
+    username: ${DATABASE_USER:skillstack}
+    password: ${DATABASE_PASSWORD:skillstack_local}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+        format_sql: false
+  flyway:
+    enabled: true
+  jackson:
+    default-property-inclusion: non_null
+    deserialization:
+      fail-on-unknown-properties: true
+  lifecycle:
+    timeout-per-shutdown-phase: 30s
+
+server:
+  port: ${PORT:8080}
+  forward-headers-strategy: framework
+  shutdown: graceful
+  compression:
+    enabled: true
+    min-response-size: 2KB
+  max-http-request-header-size: 16KB
+  error:
+    include-message: never
+    include-stacktrace: never
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: never
+      probes:
+        enabled: true
+
+skillstack:
+  cors-origin: ${FRONTEND_ORIGIN:http://localhost:3000,http://127.0.0.1:3100}
+  demo-seed-enabled: ${DEMO_SEED_ENABLED:false}
+  dev-token-secret: ${DEV_TOKEN_SECRET:local-only-change-before-sharing-32-bytes}
+  auth:
+    frontend-uri: ${AUTH0_FRONTEND_URI:http://localhost:3000}
+  ai:
+    enabled: ${AI_ENABLED:false}
+    provider: ${AI_PROVIDER:disabled}
+    monthly-budget-usd: ${AI_MONTHLY_BUDGET_USD:0}
+    total-budget-usd: ${AI_TOTAL_BUDGET_USD:0}
+    max-calls-per-request: ${AI_MAX_CALLS_PER_REQUEST:1}
+    max-input-characters: ${AI_MAX_INPUT_CHARACTERS:12000}
+    max-calls-per-user-month: ${AI_MAX_CALLS_PER_USER_MONTH:20}
+    max-estimated-cost-per-call-usd: ${AI_MAX_ESTIMATED_COST_PER_CALL_USD:0.05}
+    timeout-ms: ${AI_TIMEOUT_MS:8000}
+    openai:
+      model: ${OPENAI_MODEL:gpt-6-sol}
+      max-output-tokens: ${OPENAI_MAX_OUTPUT_TOKENS:1400}
+      reasoning-effort: ${OPENAI_REASONING_EFFORT:low}
+      # Server-side only: the process environment, or backend/.env for local runs. Never exposed to the browser.
+      api-key: ${OPENAI_API_KEY_SKILL_STACK:}
+  jobs:
+    enabled: ${BACKGROUND_JOBS_ENABLED:true}
+    poll-ms: ${BACKGROUND_JOB_POLL_MS:750}
+    lease-seconds: ${BACKGROUND_JOB_LEASE_SECONDS:45}
+    max-active-per-user: ${BACKGROUND_JOB_MAX_ACTIVE_PER_USER:2}
+    max-queued-total: ${BACKGROUND_JOB_MAX_QUEUED_TOTAL:200}
+    retention-days: ${BACKGROUND_JOB_RETENTION_DAYS:30}
+    health-max-pending-age-seconds: ${BACKGROUND_JOB_HEALTH_MAX_PENDING_AGE_SECONDS:120}
+  rate-limit:
+    enabled: ${RATE_LIMIT_ENABLED:true}
+    auth-per-minute: ${RATE_LIMIT_AUTH_PER_MINUTE:30}
+    import-per-minute: ${RATE_LIMIT_IMPORT_PER_MINUTE:6}
+    analysis-per-minute: ${RATE_LIMIT_ANALYSIS_PER_MINUTE:10}
+    export-per-minute: ${RATE_LIMIT_EXPORT_PER_MINUTE:2}
+    public-read-per-minute: ${RATE_LIMIT_PUBLIC_READ_PER_MINUTE:120}
+
+logging:
+  level:
+    com.skillstack: INFO
+    org.springframework.security: WARN

@@ -1,0 +1,177 @@
+name: skill-stack
+
+x-service-defaults: &service-defaults
+  restart: unless-stopped
+  init: true
+  security_opt:
+    - no-new-privileges:true
+  logging:
+    driver: json-file
+    options:
+      max-size: 10m
+      max-file: "3"
+
+services:
+  edge:
+    <<: *service-defaults
+    image: caddy:2-alpine
+    environment:
+      APP_ADDRESS: ${APP_ADDRESS:?Set APP_ADDRESS to the production domain}
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+    depends_on:
+      frontend:
+        condition: service_healthy
+      backend:
+        condition: service_healthy
+    networks:
+      - edge
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_BIND_SERVICE
+    read_only: true
+    tmpfs:
+      - /tmp:size=32m,mode=1777
+      - /config:size=16m,mode=700
+    mem_limit: 128m
+    cpus: 0.25
+    pids_limit: 100
+
+  frontend:
+    <<: *service-defaults
+    image: ${FRONTEND_IMAGE:-skill-stack-frontend}:${RELEASE_VERSION:-local}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        RELEASE_VERSION: ${RELEASE_VERSION:-local}
+        NEXT_PUBLIC_API_URL: /api/v1
+        NEXT_PUBLIC_SITE_URL: ${FRONTEND_ORIGIN:?Set the exact HTTPS frontend origin}
+        NEXT_PUBLIC_AUTH_MODE: auth0
+        NEXT_PUBLIC_AUTH_LOGIN_URL: /oauth2/authorization/auth0
+        NEXT_PUBLIC_EXPANDED_UNIVERSE: "false"
+    environment:
+      HOSTNAME: 0.0.0.0
+      PORT: 3000
+      NODE_ENV: production
+      INTERNAL_API_URL: http://backend:8080/api/v1
+      NEXT_PUBLIC_SITE_URL: ${FRONTEND_ORIGIN:?Set the exact HTTPS frontend origin}
+    expose:
+      - "3000"
+    networks:
+      - edge
+    cap_drop:
+      - ALL
+    read_only: true
+    tmpfs:
+      - /tmp:size=32m,mode=1777
+    mem_limit: 384m
+    cpus: 0.75
+    pids_limit: 150
+    stop_grace_period: 30s
+
+  backend:
+    <<: *service-defaults
+    image: ${BACKEND_IMAGE:-skill-stack-backend}:${RELEASE_VERSION:-local}
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      args:
+        RELEASE_VERSION: ${RELEASE_VERSION:-local}
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+      DATABASE_URL: jdbc:postgresql://database:5432/${DATABASE_NAME:-skillstack}
+      DATABASE_USER: ${DATABASE_APP_USER:?Set DATABASE_APP_USER}
+      DATABASE_PASSWORD: ${DATABASE_APP_PASSWORD:?Set DATABASE_APP_PASSWORD}
+      SPRING_FLYWAY_USER: ${DATABASE_MIGRATION_USER:?Set DATABASE_MIGRATION_USER}
+      SPRING_FLYWAY_PASSWORD: ${DATABASE_MIGRATION_PASSWORD:?Set DATABASE_MIGRATION_PASSWORD}
+      FRONTEND_ORIGIN: ${FRONTEND_ORIGIN:?Set the exact HTTPS frontend origin}
+      AUTH0_FRONTEND_URI: ${FRONTEND_ORIGIN:?Set the exact HTTPS frontend origin}
+      AUTH0_CLIENT_ID: ${AUTH0_CLIENT_ID:?Set AUTH0_CLIENT_ID}
+      AUTH0_CLIENT_SECRET: ${AUTH0_CLIENT_SECRET:?Set AUTH0_CLIENT_SECRET}
+      AUTH0_CLIENT_AUTHENTICATION_METHOD: ${AUTH0_CLIENT_AUTHENTICATION_METHOD:-client_secret_post}
+      AUTH0_ISSUER_URI: ${AUTH0_ISSUER_URI:?Set AUTH0_ISSUER_URI}
+      AUTH0_AUDIENCE: ${AUTH0_AUDIENCE:?Set AUTH0_AUDIENCE}
+      RELEASE_VERSION: ${RELEASE_VERSION:-local}
+      AI_ENABLED: ${AI_ENABLED:-false}
+      AI_PROVIDER: ${AI_PROVIDER:-disabled}
+      AI_MONTHLY_BUDGET_USD: ${AI_MONTHLY_BUDGET_USD:-0}
+      AI_TOTAL_BUDGET_USD: ${AI_TOTAL_BUDGET_USD:-0}
+      AI_MAX_ESTIMATED_COST_PER_CALL_USD: ${AI_MAX_ESTIMATED_COST_PER_CALL_USD:-0.05}
+      AI_TIMEOUT_MS: ${AI_TIMEOUT_MS:-8000}
+      OPENAI_API_KEY_SKILL_STACK: ${OPENAI_API_KEY_SKILL_STACK:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-6-sol}
+      BACKGROUND_JOBS_ENABLED: ${BACKGROUND_JOBS_ENABLED:-true}
+      BACKGROUND_JOB_POLL_MS: ${BACKGROUND_JOB_POLL_MS:-750}
+      BACKGROUND_JOB_LEASE_SECONDS: ${BACKGROUND_JOB_LEASE_SECONDS:-45}
+      BACKGROUND_JOB_MAX_ACTIVE_PER_USER: ${BACKGROUND_JOB_MAX_ACTIVE_PER_USER:-2}
+      BACKGROUND_JOB_MAX_QUEUED_TOTAL: ${BACKGROUND_JOB_MAX_QUEUED_TOTAL:-200}
+      BACKGROUND_JOB_RETENTION_DAYS: ${BACKGROUND_JOB_RETENTION_DAYS:-30}
+      BACKGROUND_JOB_HEALTH_MAX_PENDING_AGE_SECONDS: ${BACKGROUND_JOB_HEALTH_MAX_PENDING_AGE_SECONDS:-120}
+      RATE_LIMIT_ENABLED: ${RATE_LIMIT_ENABLED:-true}
+      RATE_LIMIT_AUTH_PER_MINUTE: ${RATE_LIMIT_AUTH_PER_MINUTE:-30}
+      RATE_LIMIT_IMPORT_PER_MINUTE: ${RATE_LIMIT_IMPORT_PER_MINUTE:-6}
+      RATE_LIMIT_ANALYSIS_PER_MINUTE: ${RATE_LIMIT_ANALYSIS_PER_MINUTE:-10}
+      RATE_LIMIT_EXPORT_PER_MINUTE: ${RATE_LIMIT_EXPORT_PER_MINUTE:-2}
+      DATABASE_POOL_MAX_SIZE: ${DATABASE_POOL_MAX_SIZE:-10}
+      DATABASE_POOL_MIN_IDLE: ${DATABASE_POOL_MIN_IDLE:-2}
+    expose:
+      - "8080"
+    depends_on:
+      database:
+        condition: service_healthy
+    networks:
+      - edge
+      - data
+    cap_drop:
+      - ALL
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    mem_limit: 768m
+    cpus: 1.5
+    pids_limit: 220
+    stop_grace_period: 60s
+
+  database:
+    <<: *service-defaults
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: ${DATABASE_NAME:-skillstack}
+      POSTGRES_USER: ${DATABASE_ADMIN_USER:-skillstack_admin}
+      POSTGRES_PASSWORD: ${DATABASE_ADMIN_PASSWORD:?Set DATABASE_ADMIN_PASSWORD}
+      DATABASE_APP_USER: ${DATABASE_APP_USER:?Set DATABASE_APP_USER}
+      DATABASE_APP_PASSWORD: ${DATABASE_APP_PASSWORD:?Set DATABASE_APP_PASSWORD}
+      DATABASE_MIGRATION_USER: ${DATABASE_MIGRATION_USER:?Set DATABASE_MIGRATION_USER}
+      DATABASE_MIGRATION_PASSWORD: ${DATABASE_MIGRATION_PASSWORD:?Set DATABASE_MIGRATION_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./deploy/postgres/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+    networks:
+      - data
+    shm_size: 128m
+    mem_limit: 512m
+    cpus: 1.0
+    pids_limit: 150
+    stop_grace_period: 60s
+
+networks:
+  edge:
+  data:
+    internal: true
+
+volumes:
+  postgres_data:
+  caddy_data:

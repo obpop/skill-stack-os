@@ -1,0 +1,12 @@
+.git
+.github
+.next
+.env*
+!.env.example
+backend/target
+node_modules
+playwright-report
+test-results
+*.tsbuildinfo
+public/captures
+docs/archive
