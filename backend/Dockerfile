@@ -6,7 +6,7 @@ RUN --mount=type=cache,target=/root/.m2 mvn -B -DskipTests dependency:go-offline
 COPY src ./src
 RUN --mount=type=cache,target=/root/.m2 mvn -B -DskipTests package
 
-FROM eclipse-temurin:21-jre-jammy AS runtime
+FROM eclipse-temurin:22-jre-jammy AS runtime
 ARG RELEASE_VERSION=local
 LABEL org.opencontainers.image.title="Skill Stack backend" \
       org.opencontainers.image.revision="${RELEASE_VERSION}"
