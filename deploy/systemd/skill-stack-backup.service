@@ -1,0 +1,14 @@
+[Unit]
+Description=Create and verify an encrypted off-site Skill Stack backup
+After=docker.service network-online.target
+Requires=docker.service
+
+[Service]
+Type=oneshot
+User=skillstack
+Group=skillstack
+WorkingDirectory=/opt/skill-stack
+EnvironmentFile=/etc/skill-stack/operations.env
+ExecStart=/bin/sh /opt/skill-stack/deploy/scripts/backup.sh
+NoNewPrivileges=true
+PrivateTmp=true

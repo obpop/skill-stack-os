@@ -1,0 +1,4746 @@
+{
+  "nodes": [
+    {
+      "id": "domain-engineering",
+      "type": "DOMAIN",
+      "name": "Engineering",
+      "domain": "engineering",
+      "importance": 10,
+      "depth": 10,
+      "activity": 8,
+      "description": "Systems that remain intelligible under pressure.",
+      "year": 2024,
+      "x": -27,
+      "y": 12
+    },
+    {
+      "id": "engineering-backend-development-with-spring-boot",
+      "type": "SKILL",
+      "name": "Backend development with Spring Boot",
+      "domain": "engineering",
+      "importance": 9,
+      "depth": 8,
+      "activity": 3,
+      "proofOfWork": false,
+      "description": "Building reliable backend services and APIs with Spring Boot.",
+      "year": 2024,
+      "x": -22.4,
+      "y": 12
+    },
+    {
+      "id": "engineering-spring-boot",
+      "type": "SKILL",
+      "name": "Spring Boot",
+      "domain": "engineering",
+      "importance": 8,
+      "depth": 7,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -31.534817645827772,
+      "y": 15.157242427129383
+    },
+    {
+      "id": "engineering-distributed-systems",
+      "type": "KNOWLEDGE",
+      "name": "Distributed Systems",
+      "domain": "engineering",
+      "importance": 10,
+      "depth": 9,
+      "activity": 3,
+      "proofOfWork": false,
+      "description": "Coordination, failure and consistency across machines.",
+      "year": 2026,
+      "x": -26.32682544395456,
+      "y": 6.170406833794237
+    },
+    {
+      "id": "engineering-rabbitmq",
+      "type": "SKILL",
+      "name": "RabbitMQ",
+      "domain": "engineering",
+      "importance": 7,
+      "depth": 6,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -21.37193547676579,
+      "y": 17.579010333706837
+    },
+    {
+      "id": "engineering-postgresql",
+      "type": "SKILL",
+      "name": "PostgreSQL",
+      "domain": "engineering",
+      "importance": 8,
+      "depth": 7,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -37.63490737003221,
+      "y": 10.570321978440559
+    },
+    {
+      "id": "engineering-docker",
+      "type": "SKILL",
+      "name": "Docker",
+      "domain": "engineering",
+      "importance": 7,
+      "depth": 6,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -23.118728479807224,
+      "y": 10.123595339787878
+    },
+    {
+      "id": "engineering-kubernetes",
+      "type": "KNOWLEDGE",
+      "name": "Kubernetes",
+      "domain": "engineering",
+      "importance": 7,
+      "depth": 6,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -28.59655828878823,
+      "y": 16.513753930131518
+    },
+    {
+      "id": "engineering-observability",
+      "type": "KNOWLEDGE",
+      "name": "Observability",
+      "domain": "engineering",
+      "importance": 8,
+      "depth": 7,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -30.548995079007067,
+      "y": 6.806656129477228
+    },
+    {
+      "id": "engineering-security",
+      "type": "KNOWLEDGE",
+      "name": "Security",
+      "domain": "engineering",
+      "importance": 7,
+      "depth": 6,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -18.31127217738719,
+      "y": 14.411549439066597
+    },
+    {
+      "id": "engineering-system-design",
+      "type": "SKILL",
+      "name": "System Design",
+      "domain": "engineering",
+      "importance": 9,
+      "depth": 8,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -36.982923486255416,
+      "y": 15.131830687375752
+    },
+    {
+      "id": "engineering-apis",
+      "type": "SKILL",
+      "name": "APIs",
+      "domain": "engineering",
+      "importance": 8,
+      "depth": 7,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -25.050317994148024,
+      "y": 8.833549579113779
+    },
+    {
+      "id": "engineering-cloud",
+      "type": "KNOWLEDGE",
+      "name": "Cloud",
+      "domain": "engineering",
+      "importance": 6,
+      "depth": 5,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -25.159389404868506,
+      "y": 16.45975956338265
+    },
+    {
+      "id": "engineering-event-driven-systems",
+      "type": "KNOWLEDGE",
+      "name": "Event-driven Systems",
+      "domain": "engineering",
+      "importance": 9,
+      "depth": 8,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -33.66213695841694,
+      "y": 9.06577679262847
+    },
+    {
+      "id": "engineering-messaging",
+      "type": "KNOWLEDGE",
+      "name": "Messaging",
+      "domain": "engineering",
+      "importance": 7,
+      "depth": 6,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -17.965755025576083,
+      "y": 10.490501908634936
+    },
+    {
+      "id": "engineering-queues",
+      "type": "KNOWLEDGE",
+      "name": "Queues",
+      "domain": "engineering",
+      "importance": 6,
+      "depth": 5,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -33.211369419301164,
+      "y": 18.71467160981042
+    },
+    {
+      "id": "engineering-retries",
+      "type": "KNOWLEDGE",
+      "name": "Retries",
+      "domain": "engineering",
+      "importance": 5,
+      "depth": 4,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -27.591164892912076,
+      "y": 8.532989947739024
+    },
+    {
+      "id": "engineering-idempotency",
+      "type": "KNOWLEDGE",
+      "name": "Idempotency",
+      "domain": "engineering",
+      "importance": 7,
+      "depth": 6,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -22.297394110060072,
+      "y": 15.012132061287812
+    },
+    {
+      "id": "engineering-consistency",
+      "type": "KNOWLEDGE",
+      "name": "Consistency",
+      "domain": "engineering",
+      "importance": 7,
+      "depth": 6,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -34.69342337330919,
+      "y": 12.241814753714166
+    },
+    {
+      "id": "engineering-resilience",
+      "type": "IDEA",
+      "name": "Resilience",
+      "domain": "engineering",
+      "importance": 7,
+      "depth": 6,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -20.443354898405747,
+      "y": 7.041158407976609
+    },
+    {
+      "id": "engineering-architecture",
+      "type": "SKILL",
+      "name": "Architecture",
+      "domain": "engineering",
+      "importance": 8,
+      "depth": 7,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -27.498820526148887,
+      "y": 20.19924048071303
+    },
+    {
+      "id": "domain-ai",
+      "type": "DOMAIN",
+      "name": "Artificial Intelligence",
+      "domain": "ai",
+      "importance": 10,
+      "depth": 10,
+      "activity": 8,
+      "description": "Intelligence as a medium, tool and design problem.",
+      "year": 2024,
+      "x": -7,
+      "y": 22
+    },
+    {
+      "id": "ai-ai",
+      "type": "INTEREST",
+      "name": "AI",
+      "domain": "ai",
+      "importance": 10,
+      "depth": 9,
+      "activity": 4,
+      "proofOfWork": false,
+      "description": "A general-purpose technology and a new design material.",
+      "year": 2026,
+      "x": -2.7812442150436167,
+      "y": 23.393538210633544
+    },
+    {
+      "id": "ai-llms",
+      "type": "KNOWLEDGE",
+      "name": "LLMs",
+      "domain": "ai",
+      "importance": 9,
+      "depth": 8,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -12.814905009298975,
+      "y": 23.521781105705557
+    },
+    {
+      "id": "ai-ai-infrastructure",
+      "type": "KNOWLEDGE",
+      "name": "AI Infrastructure",
+      "domain": "ai",
+      "importance": 8,
+      "depth": 7,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -3.3250778414658484,
+      "y": 16.85749229834844
+    },
+    {
+      "id": "ai-embeddings",
+      "type": "KNOWLEDGE",
+      "name": "Embeddings",
+      "domain": "ai",
+      "importance": 7,
+      "depth": 6,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -4.764497412451012,
+      "y": 28.82160980102067
+    },
+    {
+      "id": "ai-agents",
+      "type": "INTEREST",
+      "name": "Agents",
+      "domain": "ai",
+      "importance": 8,
+      "depth": 7,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -16.003648951192957,
+      "y": 17.467040823746295
+    },
+    {
+      "id": "ai-rag",
+      "type": "KNOWLEDGE",
+      "name": "RAG",
+      "domain": "ai",
+      "importance": 7,
+      "depth": 6,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -2.456257174255102,
+      "y": 21.45491459870508
+    },
+    {
+      "id": "ai-ai-coding",
+      "type": "INTEREST",
+      "name": "AI Coding",
+      "domain": "ai",
+      "importance": 8,
+      "depth": 7,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -10.831637405141782,
+      "y": 25.655991418191704
+    },
+    {
+      "id": "ai-machine-learning",
+      "type": "KNOWLEDGE",
+      "name": "Machine Learning",
+      "domain": "ai",
+      "importance": 7,
+      "depth": 6,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -7.531021352529591,
+      "y": 16.16193266326468
+    },
+    {
+      "id": "ai-human-ai-interaction",
+      "type": "INTEREST",
+      "name": "Human-AI Interaction",
+      "domain": "ai",
+      "importance": 9,
+      "depth": 8,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -0.2962106076057429,
+      "y": 26.843872254212233
+    },
+    {
+      "id": "ai-evaluation",
+      "type": "KNOWLEDGE",
+      "name": "Evaluation",
+      "domain": "ai",
+      "importance": 6,
+      "depth": 5,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -17.79814821979799,
+      "y": 21.848009456074443
+    },
+    {
+      "id": "ai-tool-use",
+      "type": "KNOWLEDGE",
+      "name": "Tool Use",
+      "domain": "ai",
+      "importance": 7,
+      "depth": 6,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -3.551147252502505,
+      "y": 19.686625074532184
+    },
+    {
+      "id": "ai-context-engineering",
+      "type": "SKILL",
+      "name": "Context Engineering",
+      "domain": "ai",
+      "importance": 7,
+      "depth": 6,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -7.651018962997599,
+      "y": 26.647738620162563
+    },
+    {
+      "id": "ai-model-behavior",
+      "type": "KNOWLEDGE",
+      "name": "Model Behavior",
+      "domain": "ai",
+      "importance": 6,
+      "depth": 5,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -11.571025659485167,
+      "y": 17.290714446417425
+    },
+    {
+      "id": "ai-retrieval",
+      "type": "KNOWLEDGE",
+      "name": "Retrieval",
+      "domain": "ai",
+      "importance": 7,
+      "depth": 6,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 2.077204736829385,
+      "y": 23.352469950164522
+    },
+    {
+      "id": "ai-ai-safety",
+      "type": "INTEREST",
+      "name": "AI Safety",
+      "domain": "ai",
+      "importance": 6,
+      "depth": 5,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -16.21832720372975,
+      "y": 26.276473711263776
+    },
+    {
+      "id": "ai-reasoning-systems",
+      "type": "INTEREST",
+      "name": "Reasoning Systems",
+      "domain": "ai",
+      "importance": 8,
+      "depth": 7,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -5.723771544788108,
+      "y": 18.641243569231303
+    },
+    {
+      "id": "ai-intelligence-interfaces",
+      "type": "IDEA",
+      "name": "Intelligence Interfaces",
+      "domain": "ai",
+      "importance": 9,
+      "depth": 8,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -4.266963186244309,
+      "y": 26.187110990389602
+    },
+    {
+      "id": "domain-business",
+      "type": "DOMAIN",
+      "name": "Business",
+      "domain": "business",
+      "importance": 10,
+      "depth": 10,
+      "activity": 8,
+      "description": "Turning useful ideas into durable systems.",
+      "year": 2024,
+      "x": 19,
+      "y": 19
+    },
+    {
+      "id": "business-startups",
+      "type": "INTEREST",
+      "name": "Startups",
+      "domain": "business",
+      "importance": 9,
+      "depth": 8,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 22.13821755352302,
+      "y": 21.556085820725226
+    },
+    {
+      "id": "business-saas",
+      "type": "KNOWLEDGE",
+      "name": "SaaS",
+      "domain": "business",
+      "importance": 7,
+      "depth": 6,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 12.868876712370426,
+      "y": 18.63407185249351
+    },
+    {
+      "id": "business-sales",
+      "type": "SKILL",
+      "name": "Sales",
+      "domain": "business",
+      "importance": 6,
+      "depth": 5,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 25.067520711598192,
+      "y": 15.39699137684695
+    },
+    {
+      "id": "business-marketing",
+      "type": "KNOWLEDGE",
+      "name": "Marketing",
+      "domain": "business",
+      "importance": 6,
+      "depth": 5,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 17.47238742176894,
+      "y": 25.933470453584953
+    },
+    {
+      "id": "business-product",
+      "type": "SKILL",
+      "name": "Product",
+      "domain": "business",
+      "importance": 9,
+      "depth": 8,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 13.120039501092304,
+      "y": 12.115135522519683
+    },
+    {
+      "id": "business-entrepreneurship",
+      "type": "GOAL",
+      "name": "Entrepreneurship",
+      "domain": "business",
+      "importance": 9,
+      "depth": 8,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 23.453050797835637,
+      "y": 19.87658631673029
+    },
+    {
+      "id": "business-leverage",
+      "type": "IDEA",
+      "name": "Leverage",
+      "domain": "business",
+      "importance": 8,
+      "depth": 7,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 13.568409389311206,
+      "y": 21.19221778519333
+    },
+    {
+      "id": "business-strategy",
+      "type": "SKILL",
+      "name": "Strategy",
+      "domain": "business",
+      "importance": 8,
+      "depth": 7,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 21.57497359947682,
+      "y": 13.484917631471884
+    },
+    {
+      "id": "business-distribution",
+      "type": "KNOWLEDGE",
+      "name": "Distribution",
+      "domain": "business",
+      "importance": 7,
+      "depth": 6,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 22.60764186447089,
+      "y": 25.473282775736692
+    },
+    {
+      "id": "business-customer-research",
+      "type": "SKILL",
+      "name": "Customer Research",
+      "domain": "business",
+      "importance": 7,
+      "depth": 6,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 9.176510325781832,
+      "y": 15.589381927213548
+    },
+    {
+      "id": "business-pricing",
+      "type": "KNOWLEDGE",
+      "name": "Pricing",
+      "domain": "business",
+      "importance": 6,
+      "depth": 5,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 23.376347333264448,
+      "y": 17.923161790629532
+    },
+    {
+      "id": "business-positioning",
+      "type": "KNOWLEDGE",
+      "name": "Positioning",
+      "domain": "business",
+      "importance": 7,
+      "depth": 6,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 15.965263310841365,
+      "y": 23.065316171737354
+    },
+    {
+      "id": "business-network-effects",
+      "type": "IDEA",
+      "name": "Network Effects",
+      "domain": "business",
+      "importance": 7,
+      "depth": 6,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 17.27777133053123,
+      "y": 13.296255523811524
+    },
+    {
+      "id": "business-founder-craft",
+      "type": "INTEREST",
+      "name": "Founder Craft",
+      "domain": "business",
+      "importance": 7,
+      "depth": 6,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 26.615541979807585,
+      "y": 22.990254798424303
+    },
+    {
+      "id": "business-operations",
+      "type": "KNOWLEDGE",
+      "name": "Operations",
+      "domain": "business",
+      "importance": 6,
+      "depth": 5,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 8.30272975914648,
+      "y": 20.12941456784516
+    },
+    {
+      "id": "business-independent-business",
+      "type": "GOAL",
+      "name": "Independent Business",
+      "domain": "business",
+      "importance": 8,
+      "depth": 7,
+      "activity": 5,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 21.932076274803894,
+      "y": 16.30623912940668
+    },
+    {
+      "id": "domain-economics",
+      "type": "DOMAIN",
+      "name": "Economics & Investing",
+      "domain": "economics",
+      "importance": 10,
+      "depth": 10,
+      "activity": 8,
+      "description": "How incentives, capital and time shape outcomes.",
+      "year": 2024,
+      "x": 28,
+      "y": -1
+    },
+    {
+      "id": "economics-investing",
+      "type": "INTEREST",
+      "name": "Investing",
+      "domain": "economics",
+      "importance": 10,
+      "depth": 9,
+      "activity": 6,
+      "proofOfWork": false,
+      "description": "The allocation of capital under uncertainty.",
+      "year": 2024,
+      "x": 29.537493544772712,
+      "y": 2.294940851553214
+    },
+    {
+      "id": "economics-economics",
+      "type": "KNOWLEDGE",
+      "name": "Economics",
+      "domain": "economics",
+      "importance": 10,
+      "depth": 9,
+      "activity": 6,
+      "proofOfWork": false,
+      "description": "Incentives, institutions and trade-offs.",
+      "year": 2025,
+      "x": 22.568943340617203,
+      "y": -3.19298175317138
+    },
+    {
+      "id": "economics-markets",
+      "type": "KNOWLEDGE",
+      "name": "Markets",
+      "domain": "economics",
+      "importance": 8,
+      "depth": 7,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 35.454377016421304,
+      "y": -2.466280764511343
+    },
+    {
+      "id": "economics-capital-allocation",
+      "type": "SKILL",
+      "name": "Capital Allocation",
+      "domain": "economics",
+      "importance": 8,
+      "depth": 7,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 22.962486803066483,
+      "y": 4.896050453712236
+    },
+    {
+      "id": "economics-fintech",
+      "type": "INDUSTRY",
+      "name": "Fintech",
+      "domain": "economics",
+      "importance": 8,
+      "depth": 7,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 26.218380529418237,
+      "y": -9.095545972881421
+    },
+    {
+      "id": "economics-compounding",
+      "type": "IDEA",
+      "name": "Compounding",
+      "domain": "economics",
+      "importance": 9,
+      "depth": 8,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 31.62422839776542,
+      "y": 1.1529565294338386
+    },
+    {
+      "id": "economics-business-models",
+      "type": "KNOWLEDGE",
+      "name": "Business Models",
+      "domain": "economics",
+      "importance": 8,
+      "depth": 7,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 21.868787704986076,
+      "y": -0.6349342602923007
+    },
+    {
+      "id": "economics-market-structure",
+      "type": "KNOWLEDGE",
+      "name": "Market Structure",
+      "domain": "economics",
+      "importance": 7,
+      "depth": 6,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 33.25414516509602,
+      "y": -5.2779264227163925
+    },
+    {
+      "id": "economics-payments",
+      "type": "INDUSTRY",
+      "name": "Payments",
+      "domain": "economics",
+      "importance": 7,
+      "depth": 6,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 27.91349755794809,
+      "y": 6.029692597004154
+    },
+    {
+      "id": "economics-banking",
+      "type": "INDUSTRY",
+      "name": "Banking",
+      "domain": "economics",
+      "importance": 6,
+      "depth": 5,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 20.77949435389921,
+      "y": -7.103907162528631
+    },
+    {
+      "id": "economics-financial-ledgers",
+      "type": "KNOWLEDGE",
+      "name": "Financial Ledgers",
+      "domain": "economics",
+      "importance": 7,
+      "depth": 6,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 32.578425786932,
+      "y": -0.6618065637685897
+    },
+    {
+      "id": "economics-settlement",
+      "type": "KNOWLEDGE",
+      "name": "Settlement",
+      "domain": "economics",
+      "importance": 6,
+      "depth": 5,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 23.084578544211787,
+      "y": 1.8090336047042648
+    },
+    {
+      "id": "economics-portfolio-systems",
+      "type": "KNOWLEDGE",
+      "name": "Portfolio Systems",
+      "domain": "economics",
+      "importance": 7,
+      "depth": 6,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 29.412042110642076,
+      "y": -6.752760100692706
+    },
+    {
+      "id": "economics-risk",
+      "type": "KNOWLEDGE",
+      "name": "Risk",
+      "domain": "economics",
+      "importance": 8,
+      "depth": 7,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 32.8915395166017,
+      "y": 4.966621577793069
+    },
+    {
+      "id": "economics-behavioral-finance",
+      "type": "INTEREST",
+      "name": "Behavioral Finance",
+      "domain": "economics",
+      "importance": 7,
+      "depth": 6,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 17.596948633363436,
+      "y": -3.2048544757372928
+    },
+    {
+      "id": "economics-incentives",
+      "type": "IDEA",
+      "name": "Incentives",
+      "domain": "economics",
+      "importance": 8,
+      "depth": 7,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 32.101907956206475,
+      "y": -2.582251941450755
+    },
+    {
+      "id": "economics-game-theory",
+      "type": "KNOWLEDGE",
+      "name": "Game Theory",
+      "domain": "economics",
+      "importance": 6,
+      "depth": 5,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 25.836392596711622,
+      "y": 3.3752047512501706
+    },
+    {
+      "id": "economics-market-data",
+      "type": "KNOWLEDGE",
+      "name": "Market Data",
+      "domain": "economics",
+      "importance": 7,
+      "depth": 6,
+      "activity": 6,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 25.128689108533493,
+      "y": -6.429910073509658
+    },
+    {
+      "id": "domain-ideas",
+      "type": "DOMAIN",
+      "name": "Ideas",
+      "domain": "ideas",
+      "importance": 10,
+      "depth": 10,
+      "activity": 8,
+      "description": "Questions that connect otherwise separate worlds.",
+      "year": 2024,
+      "x": 5,
+      "y": 2
+    },
+    {
+      "id": "ideas-systems-thinking",
+      "type": "IDEA",
+      "name": "Systems Thinking",
+      "domain": "ideas",
+      "importance": 10,
+      "depth": 9,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 4.681917136191315,
+      "y": 5.4876319090918315
+    },
+    {
+      "id": "ideas-human-potential",
+      "type": "INTEREST",
+      "name": "Human Potential",
+      "domain": "ideas",
+      "importance": 10,
+      "depth": 9,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 1.1692529831960723,
+      "y": -1.6565303122741821
+    },
+    {
+      "id": "ideas-learning",
+      "type": "INTEREST",
+      "name": "Learning",
+      "domain": "ideas",
+      "importance": 9,
+      "depth": 8,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 12.605608054172802,
+      "y": 2.913495380695447
+    },
+    {
+      "id": "ideas-creativity",
+      "type": "INTEREST",
+      "name": "Creativity",
+      "domain": "ideas",
+      "importance": 8,
+      "depth": 7,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -2.7124039180112867,
+      "y": 5.881310833368611
+    },
+    {
+      "id": "ideas-technology",
+      "type": "INTEREST",
+      "name": "Technology",
+      "domain": "ideas",
+      "importance": 9,
+      "depth": 8,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 7.612039869295634,
+      "y": -5.964323090117009
+    },
+    {
+      "id": "ideas-innovation",
+      "type": "IDEA",
+      "name": "Innovation",
+      "domain": "ideas",
+      "importance": 7,
+      "depth": 6,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 7.194659862632222,
+      "y": 5.072456210795201
+    },
+    {
+      "id": "ideas-decision-making",
+      "type": "SKILL",
+      "name": "Decision Making",
+      "domain": "ideas",
+      "importance": 8,
+      "depth": 7,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -0.8145343190441148,
+      "y": 0.47740099797242563
+    },
+    {
+      "id": "ideas-identity",
+      "type": "IDEA",
+      "name": "Identity",
+      "domain": "ideas",
+      "importance": 9,
+      "depth": 8,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 12.06239827454468,
+      "y": -0.33166843297299
+    },
+    {
+      "id": "ideas-curiosity",
+      "type": "IDENTITY",
+      "name": "Curiosity",
+      "domain": "ideas",
+      "importance": 10,
+      "depth": 9,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 1.233691753868523,
+      "y": 8.420872141687802
+    },
+    {
+      "id": "ideas-agency",
+      "type": "IDEA",
+      "name": "Agency",
+      "domain": "ideas",
+      "importance": 8,
+      "depth": 7,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 1.5793375156103684,
+      "y": -5.785422645802404
+    },
+    {
+      "id": "ideas-mental-models",
+      "type": "KNOWLEDGE",
+      "name": "Mental Models",
+      "domain": "ideas",
+      "importance": 8,
+      "depth": 7,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 9.021591916567225,
+      "y": 3.697166694385919
+    },
+    {
+      "id": "ideas-second-order-effects",
+      "type": "IDEA",
+      "name": "Second-order Effects",
+      "domain": "ideas",
+      "importance": 7,
+      "depth": 6,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -0.9813340508871295,
+      "y": 3.0871302499943836
+    },
+    {
+      "id": "ideas-complexity",
+      "type": "INTEREST",
+      "name": "Complexity",
+      "domain": "ideas",
+      "importance": 7,
+      "depth": 6,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 9.312255114196287,
+      "y": -2.8482076778391843
+    },
+    {
+      "id": "ideas-emergence",
+      "type": "IDEA",
+      "name": "Emergence",
+      "domain": "ideas",
+      "importance": 8,
+      "depth": 7,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 6.356723512803747,
+      "y": 8.953970983297502
+    },
+    {
+      "id": "ideas-direction",
+      "type": "GOAL",
+      "name": "Direction",
+      "domain": "ideas",
+      "importance": 8,
+      "depth": 7,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -3.384439817492728,
+      "y": -3.1736504698033334
+    },
+    {
+      "id": "ideas-personal-knowledge",
+      "type": "KNOWLEDGE",
+      "name": "Personal Knowledge",
+      "domain": "ideas",
+      "importance": 8,
+      "depth": 7,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 9.591814125024236,
+      "y": 1.7915284657003638
+    },
+    {
+      "id": "ideas-taste",
+      "type": "IDENTITY",
+      "name": "Taste",
+      "domain": "ideas",
+      "importance": 9,
+      "depth": 8,
+      "activity": 7,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 0.7209771431886738,
+      "y": 5.357141470742018
+    },
+    {
+      "id": "domain-culture",
+      "type": "DOMAIN",
+      "name": "Culture & Design",
+      "domain": "culture",
+      "importance": 10,
+      "depth": 10,
+      "activity": 8,
+      "description": "Taste, meaning and designed experience.",
+      "year": 2024,
+      "x": 18,
+      "y": -22
+    },
+    {
+      "id": "culture-music",
+      "type": "INTEREST",
+      "name": "Music",
+      "domain": "culture",
+      "importance": 9,
+      "depth": 8,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 15.879065619667122,
+      "y": -18.89778115925772
+    },
+    {
+      "id": "culture-design",
+      "type": "SKILL",
+      "name": "Design",
+      "domain": "culture",
+      "importance": 9,
+      "depth": 8,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 16.404540947275848,
+      "y": -26.51397842412213
+    },
+    {
+      "id": "culture-photography",
+      "type": "INTEREST",
+      "name": "Photography",
+      "domain": "culture",
+      "importance": 7,
+      "depth": 6,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 24.49614601690581,
+      "y": -18.858147965123504
+    },
+    {
+      "id": "culture-art",
+      "type": "INTEREST",
+      "name": "Art",
+      "domain": "culture",
+      "importance": 8,
+      "depth": 7,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 8.89110074257248,
+      "y": -20.776788483500177
+    },
+    {
+      "id": "culture-digital-experiences",
+      "type": "INTEREST",
+      "name": "Digital Experiences",
+      "domain": "culture",
+      "importance": 8,
+      "depth": 7,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 24.572731778898127,
+      "y": -28.512947118289382
+    },
+    {
+      "id": "culture-storytelling",
+      "type": "SKILL",
+      "name": "Storytelling",
+      "domain": "culture",
+      "importance": 8,
+      "depth": 7,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 18.40130812027427,
+      "y": -18.517329393208872
+    },
+    {
+      "id": "culture-typography",
+      "type": "INTEREST",
+      "name": "Typography",
+      "domain": "culture",
+      "importance": 6,
+      "depth": 5,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 13.465951297059668,
+      "y": -25.15788023882624
+    },
+    {
+      "id": "culture-interaction-design",
+      "type": "SKILL",
+      "name": "Interaction Design",
+      "domain": "culture",
+      "importance": 8,
+      "depth": 7,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 25.699999868121957,
+      "y": -21.998916920850995
+    },
+    {
+      "id": "culture-editorial-design",
+      "type": "INTEREST",
+      "name": "Editorial Design",
+      "domain": "culture",
+      "importance": 7,
+      "depth": 6,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 11.17818300670578,
+      "y": -17.252261513434288
+    },
+    {
+      "id": "culture-museums",
+      "type": "INTEREST",
+      "name": "Museums",
+      "domain": "culture",
+      "importance": 6,
+      "depth": 5,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 18.94618406157817,
+      "y": -30.17643928325803
+    },
+    {
+      "id": "culture-sound",
+      "type": "INTEREST",
+      "name": "Sound",
+      "domain": "culture",
+      "importance": 6,
+      "depth": 5,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 20.798145588177483,
+      "y": -19.225179605807106
+    },
+    {
+      "id": "culture-albums",
+      "type": "INTEREST",
+      "name": "Albums",
+      "domain": "culture",
+      "importance": 5,
+      "depth": 4,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 11.94420944320705,
+      "y": -22.814974025936923
+    },
+    {
+      "id": "culture-visual-culture",
+      "type": "KNOWLEDGE",
+      "name": "Visual Culture",
+      "domain": "culture",
+      "importance": 7,
+      "depth": 6,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 24.497675806411543,
+      "y": -25.140024328678603
+    },
+    {
+      "id": "culture-aesthetics",
+      "type": "IDEA",
+      "name": "Aesthetics",
+      "domain": "culture",
+      "importance": 8,
+      "depth": 7,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 15.597019252192773,
+      "y": -15.211358397703872
+    },
+    {
+      "id": "culture-creative-direction",
+      "type": "SKILL",
+      "name": "Creative Direction",
+      "domain": "culture",
+      "importance": 8,
+      "depth": 7,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 13.023962678086047,
+      "y": -29.28487067592576
+    },
+    {
+      "id": "culture-information-design",
+      "type": "SKILL",
+      "name": "Information Design",
+      "domain": "culture",
+      "importance": 8,
+      "depth": 7,
+      "activity": 8,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 22.3205887409198,
+      "y": -20.800135228690714
+    },
+    {
+      "id": "domain-world",
+      "type": "DOMAIN",
+      "name": "World",
+      "domain": "world",
+      "importance": 10,
+      "depth": 10,
+      "activity": 8,
+      "description": "The systems beneath events and societies.",
+      "year": 2024,
+      "x": -9,
+      "y": -24
+    },
+    {
+      "id": "world-geopolitics",
+      "type": "INTEREST",
+      "name": "Geopolitics",
+      "domain": "world",
+      "importance": 9,
+      "depth": 8,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -12.572223304253148,
+      "y": -21.79741291753436
+    },
+    {
+      "id": "world-history",
+      "type": "KNOWLEDGE",
+      "name": "History",
+      "domain": "world",
+      "importance": 8,
+      "depth": 7,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -8.095710421605224,
+      "y": -28.6231969007404
+    },
+    {
+      "id": "world-society",
+      "type": "INTEREST",
+      "name": "Society",
+      "domain": "world",
+      "importance": 7,
+      "depth": 6,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -4.690106493849861,
+      "y": -19.150579533907536
+    },
+    {
+      "id": "world-infrastructure",
+      "type": "INTEREST",
+      "name": "Infrastructure",
+      "domain": "world",
+      "importance": 8,
+      "depth": 7,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -17.995518445839704,
+      "y": -25.63764532838649
+    },
+    {
+      "id": "world-global-trade",
+      "type": "KNOWLEDGE",
+      "name": "Global Trade",
+      "domain": "world",
+      "importance": 7,
+      "depth": 6,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 0.44393848513618117,
+      "y": -27.98199575005618
+    },
+    {
+      "id": "world-institutions",
+      "type": "KNOWLEDGE",
+      "name": "Institutions",
+      "domain": "world",
+      "importance": 8,
+      "depth": 7,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -10.458563795694387,
+      "y": -20.68439674579623
+    },
+    {
+      "id": "world-energy",
+      "type": "INDUSTRY",
+      "name": "Energy",
+      "domain": "world",
+      "importance": 7,
+      "depth": 6,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -11.50200663521828,
+      "y": -28.26971644394966
+    },
+    {
+      "id": "world-supply-chains",
+      "type": "KNOWLEDGE",
+      "name": "Supply Chains",
+      "domain": "world",
+      "importance": 7,
+      "depth": 6,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -1.938737845065159,
+      "y": -21.666344938146388
+    },
+    {
+      "id": "world-demographics",
+      "type": "KNOWLEDGE",
+      "name": "Demographics",
+      "domain": "world",
+      "importance": 6,
+      "depth": 5,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -17.74655258185711,
+      "y": -21.712372487053383
+    },
+    {
+      "id": "world-cities",
+      "type": "INTEREST",
+      "name": "Cities",
+      "domain": "world",
+      "importance": 6,
+      "depth": 5,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -3.843807305429314,
+      "y": -31.212142800540832
+    },
+    {
+      "id": "world-power",
+      "type": "IDEA",
+      "name": "Power",
+      "domain": "world",
+      "importance": 7,
+      "depth": 6,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -7.889116748187251,
+      "y": -20.607475568204954
+    },
+    {
+      "id": "world-technology-policy",
+      "type": "INTEREST",
+      "name": "Technology Policy",
+      "domain": "world",
+      "importance": 7,
+      "depth": 6,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -14.126449185614824,
+      "y": -26.58198954847725
+    },
+    {
+      "id": "world-industrial-capacity",
+      "type": "KNOWLEDGE",
+      "name": "Industrial Capacity",
+      "domain": "world",
+      "importance": 6,
+      "depth": 5,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -1.3939475502528804,
+      "y": -24.91135571412457
+    },
+    {
+      "id": "world-climate",
+      "type": "INTEREST",
+      "name": "Climate",
+      "domain": "world",
+      "importance": 6,
+      "depth": 5,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -14.764370874086657,
+      "y": -18.501961839087794
+    },
+    {
+      "id": "world-international-relations",
+      "type": "KNOWLEDGE",
+      "name": "International Relations",
+      "domain": "world",
+      "importance": 7,
+      "depth": 6,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -9.74281506858693,
+      "y": -32.18856270703188
+    },
+    {
+      "id": "world-political-economy",
+      "type": "KNOWLEDGE",
+      "name": "Political Economy",
+      "domain": "world",
+      "importance": 8,
+      "depth": 7,
+      "activity": 9,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -5.666810322775195,
+      "y": -21.590686533036678
+    },
+    {
+      "id": "domain-health",
+      "type": "DOMAIN",
+      "name": "Health",
+      "domain": "health",
+      "importance": 10,
+      "depth": 10,
+      "activity": 8,
+      "description": "Energy and resilience as compounding assets.",
+      "year": 2024,
+      "x": -29,
+      "y": -15
+    },
+    {
+      "id": "health-strength",
+      "type": "INTEREST",
+      "name": "Strength",
+      "domain": "health",
+      "importance": 8,
+      "depth": 7,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -33.43138637182972,
+      "y": -14.062141885950055
+    },
+    {
+      "id": "health-running",
+      "type": "INTEREST",
+      "name": "Running",
+      "domain": "health",
+      "importance": 7,
+      "depth": 6,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -25.745855342872055,
+      "y": -18.9660818671783
+    },
+    {
+      "id": "health-recovery",
+      "type": "KNOWLEDGE",
+      "name": "Recovery",
+      "domain": "health",
+      "importance": 7,
+      "depth": 6,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -27.590759859681096,
+      "y": -9.246843058783682
+    },
+    {
+      "id": "health-sleep",
+      "type": "KNOWLEDGE",
+      "name": "Sleep",
+      "domain": "health",
+      "importance": 8,
+      "depth": 7,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -36.3910552999934,
+      "y": -19.227048778603
+    },
+    {
+      "id": "health-longevity",
+      "type": "INTEREST",
+      "name": "Longevity",
+      "domain": "health",
+      "importance": 8,
+      "depth": 7,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -18.25026651066313,
+      "y": -15.79099531919811
+    },
+    {
+      "id": "health-nutrition",
+      "type": "KNOWLEDGE",
+      "name": "Nutrition",
+      "domain": "health",
+      "importance": 6,
+      "depth": 5,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -32.07666657714976,
+      "y": -12.401053037533579
+    },
+    {
+      "id": "health-mobility",
+      "type": "SKILL",
+      "name": "Mobility",
+      "domain": "health",
+      "importance": 5,
+      "depth": 4,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -29.055236065027657,
+      "y": -19.67381147771117
+    },
+    {
+      "id": "health-stress",
+      "type": "KNOWLEDGE",
+      "name": "Stress",
+      "domain": "health",
+      "importance": 6,
+      "depth": 5,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -23.747938752806768,
+      "y": -10.720595778154362
+    },
+    {
+      "id": "health-energy-management",
+      "type": "SKILL",
+      "name": "Energy Management",
+      "domain": "health",
+      "importance": 7,
+      "depth": 6,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -38.22147400806877,
+      "y": -15.5516768326227
+    },
+    {
+      "id": "health-habits",
+      "type": "KNOWLEDGE",
+      "name": "Habits",
+      "domain": "health",
+      "importance": 7,
+      "depth": 6,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -20.4884806882869,
+      "y": -20.05237339574769
+    },
+    {
+      "id": "health-adaptation",
+      "type": "IDEA",
+      "name": "Adaptation",
+      "domain": "health",
+      "importance": 6,
+      "depth": 5,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -29.760517264266095,
+      "y": -11.552110797566277
+    },
+    {
+      "id": "health-endurance",
+      "type": "SKILL",
+      "name": "Endurance",
+      "domain": "health",
+      "importance": 6,
+      "depth": 5,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -32.347356033684214,
+      "y": -18.921018732469733
+    },
+    {
+      "id": "health-focus",
+      "type": "SKILL",
+      "name": "Focus",
+      "domain": "health",
+      "importance": 8,
+      "depth": 7,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -21.546337644214876,
+      "y": -13.531622276154483
+    },
+    {
+      "id": "health-wellbeing",
+      "type": "GOAL",
+      "name": "Wellbeing",
+      "domain": "health",
+      "importance": 7,
+      "depth": 6,
+      "activity": 3,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -37.17026837031758,
+      "y": -11.703911038270306
+    },
+    {
+      "id": "domain-communication",
+      "type": "DOMAIN",
+      "name": "Communication",
+      "domain": "communication",
+      "importance": 10,
+      "depth": 10,
+      "activity": 8,
+      "description": "Making complex things clear enough to travel.",
+      "year": 2024,
+      "x": -4,
+      "y": -8
+    },
+    {
+      "id": "communication-writing",
+      "type": "SKILL",
+      "name": "Writing",
+      "domain": "communication",
+      "importance": 9,
+      "depth": 8,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -8.556010126848376,
+      "y": -8.48232867198021
+    },
+    {
+      "id": "communication-teaching",
+      "type": "SKILL",
+      "name": "Teaching",
+      "domain": "communication",
+      "importance": 8,
+      "depth": 7,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 1.0645980726241078,
+      "y": -10.651555630028758
+    },
+    {
+      "id": "communication-content",
+      "type": "SKILL",
+      "name": "Content",
+      "domain": "communication",
+      "importance": 7,
+      "depth": 6,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -5.725006552079216,
+      "y": -2.296740410649722
+    },
+    {
+      "id": "communication-research",
+      "type": "SKILL",
+      "name": "Research",
+      "domain": "communication",
+      "importance": 9,
+      "depth": 8,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -8.56146299058624,
+      "y": -14.115783579450124
+    },
+    {
+      "id": "communication-explanation",
+      "type": "SKILL",
+      "name": "Explanation",
+      "domain": "communication",
+      "importance": 8,
+      "depth": 7,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": 6.273670360463505,
+      "y": -5.46888080591793
+    },
+    {
+      "id": "communication-essays",
+      "type": "PROOF_OF_WORK",
+      "name": "Essays",
+      "domain": "communication",
+      "importance": 7,
+      "depth": 6,
+      "activity": 4,
+      "proofOfWork": true,
+      "year": 2024,
+      "x": -8.184786169841484,
+      "y": -6.548506500855928
+    },
+    {
+      "id": "communication-public-thinking",
+      "type": "GOAL",
+      "name": "Public Thinking",
+      "domain": "communication",
+      "importance": 7,
+      "depth": 6,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": -1.599309655596354,
+      "y": -12.303183212306656
+    },
+    {
+      "id": "communication-synthesis",
+      "type": "SKILL",
+      "name": "Synthesis",
+      "domain": "communication",
+      "importance": 9,
+      "depth": 8,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -1.4277126899167185,
+      "y": -2.4841936196457652
+    },
+    {
+      "id": "communication-argument",
+      "type": "SKILL",
+      "name": "Argument",
+      "domain": "communication",
+      "importance": 6,
+      "depth": 5,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -12.16785907786682,
+      "y": -11.299536134274199
+    },
+    {
+      "id": "communication-knowledge-sharing",
+      "type": "GOAL",
+      "name": "Knowledge Sharing",
+      "domain": "communication",
+      "importance": 7,
+      "depth": 6,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 6.455990494584803,
+      "y": -10.055130891228863
+    },
+    {
+      "id": "communication-visual-explanation",
+      "type": "SKILL",
+      "name": "Visual Explanation",
+      "domain": "communication",
+      "importance": 7,
+      "depth": 6,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -6.505855690152659,
+      "y": -5.068262467162038
+    },
+    {
+      "id": "communication-audience",
+      "type": "KNOWLEDGE",
+      "name": "Audience",
+      "domain": "communication",
+      "importance": 6,
+      "depth": 5,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": -5.013410654130364,
+      "y": -12.61010630392668
+    },
+    {
+      "id": "communication-editing",
+      "type": "SKILL",
+      "name": "Editing",
+      "domain": "communication",
+      "importance": 7,
+      "depth": 6,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2025,
+      "x": 2.0657654557224925,
+      "y": -4.395284713277878
+    },
+    {
+      "id": "communication-interviewing",
+      "type": "SKILL",
+      "name": "Interviewing",
+      "domain": "communication",
+      "importance": 5,
+      "depth": 4,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2026,
+      "x": -13.221875626749656,
+      "y": -7.452214519595714
+    },
+    {
+      "id": "communication-documentation",
+      "type": "SKILL",
+      "name": "Documentation",
+      "domain": "communication",
+      "importance": 7,
+      "depth": 6,
+      "activity": 4,
+      "proofOfWork": false,
+      "year": 2024,
+      "x": 3.3709114317271123,
+      "y": -13.999171802079895
+    },
+    {
+      "id": "project-skill-stack",
+      "type": "PROJECT",
+      "name": "Skill Stack",
+      "domain": "ai",
+      "importance": 9,
+      "depth": 8,
+      "activity": 9,
+      "proofOfWork": true,
+      "description": "A personal system for choosing the next skill worth building.",
+      "year": 2026,
+      "x": 0.9576144594723047,
+      "y": 3.147406984814282
+    },
+    {
+      "id": "project-music-room",
+      "type": "PROJECT",
+      "name": "Music Room",
+      "domain": "culture",
+      "importance": 9,
+      "depth": 8,
+      "activity": 9,
+      "proofOfWork": true,
+      "description": "An immersive environment for exploring an artist, album and influence graph.",
+      "year": 2025,
+      "x": 17.089638704346832,
+      "y": -18.457609675292346
+    },
+    {
+      "id": "project-world",
+      "type": "PROJECT",
+      "name": "World",
+      "domain": "world",
+      "importance": 9,
+      "depth": 8,
+      "activity": 9,
+      "proofOfWork": true,
+      "description": "An intelligence interface for events and their second-order effects.",
+      "year": 2026,
+      "x": 6.405262757256347,
+      "y": 2.3937782965813073
+    },
+    {
+      "id": "project-compound",
+      "type": "PROJECT",
+      "name": "Compound",
+      "domain": "ideas",
+      "importance": 9,
+      "depth": 8,
+      "activity": 9,
+      "proofOfWork": true,
+      "description": "A map of how capital, knowledge, health and reputation compound.",
+      "year": 2025,
+      "x": 0.336863135407401,
+      "y": -2.249969453929367
+    },
+    {
+      "id": "project-distributed-lab",
+      "type": "PROJECT",
+      "name": "Distributed Systems Lab",
+      "domain": "engineering",
+      "importance": 9,
+      "depth": 8,
+      "activity": 9,
+      "proofOfWork": true,
+      "description": "An educational environment for observing systems under failure.",
+      "year": 2024,
+      "x": -16.755828052677046,
+      "y": -2.0479332750341035
+    },
+    {
+      "id": "project-incident-investigator",
+      "type": "PROJECT",
+      "name": "AI Incident Investigator",
+      "domain": "ai",
+      "importance": 9,
+      "depth": 8,
+      "activity": 9,
+      "proofOfWork": true,
+      "description": "A concept for investigating incidents across logs, metrics and deployments.",
+      "year": 2026,
+      "x": -15.234943711033967,
+      "y": 11.580959673669714
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-domain-engineering-engineering-backend-development-with-spring-boot",
+      "source": "domain-engineering",
+      "target": "engineering-backend-development-with-spring-boot",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-spring-boot",
+      "source": "domain-engineering",
+      "target": "engineering-spring-boot",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-engineering-backend-development-with-spring-boot-engineering-spring-boot",
+      "source": "engineering-backend-development-with-spring-boot",
+      "target": "engineering-spring-boot",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-distributed-systems",
+      "source": "domain-engineering",
+      "target": "engineering-distributed-systems",
+      "type": "belongs_to",
+      "strength": 0.79,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-engineering-spring-boot-engineering-distributed-systems",
+      "source": "engineering-spring-boot",
+      "target": "engineering-distributed-systems",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-rabbitmq",
+      "source": "domain-engineering",
+      "target": "engineering-rabbitmq",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-postgresql",
+      "source": "domain-engineering",
+      "target": "engineering-postgresql",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-engineering-rabbitmq-engineering-postgresql",
+      "source": "engineering-rabbitmq",
+      "target": "engineering-postgresql",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-docker",
+      "source": "domain-engineering",
+      "target": "engineering-docker",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-engineering-postgresql-engineering-docker",
+      "source": "engineering-postgresql",
+      "target": "engineering-docker",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-kubernetes",
+      "source": "domain-engineering",
+      "target": "engineering-kubernetes",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-observability",
+      "source": "domain-engineering",
+      "target": "engineering-observability",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-engineering-kubernetes-engineering-observability",
+      "source": "engineering-kubernetes",
+      "target": "engineering-observability",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-security",
+      "source": "domain-engineering",
+      "target": "engineering-security",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-engineering-observability-engineering-security",
+      "source": "engineering-observability",
+      "target": "engineering-security",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-system-design",
+      "source": "domain-engineering",
+      "target": "engineering-system-design",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-apis",
+      "source": "domain-engineering",
+      "target": "engineering-apis",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-engineering-system-design-engineering-apis",
+      "source": "engineering-system-design",
+      "target": "engineering-apis",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-cloud",
+      "source": "domain-engineering",
+      "target": "engineering-cloud",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-engineering-apis-engineering-cloud",
+      "source": "engineering-apis",
+      "target": "engineering-cloud",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-event-driven-systems",
+      "source": "domain-engineering",
+      "target": "engineering-event-driven-systems",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-messaging",
+      "source": "domain-engineering",
+      "target": "engineering-messaging",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-engineering-event-driven-systems-engineering-messaging",
+      "source": "engineering-event-driven-systems",
+      "target": "engineering-messaging",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-queues",
+      "source": "domain-engineering",
+      "target": "engineering-queues",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-engineering-messaging-engineering-queues",
+      "source": "engineering-messaging",
+      "target": "engineering-queues",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-retries",
+      "source": "domain-engineering",
+      "target": "engineering-retries",
+      "type": "belongs_to",
+      "strength": 0.565,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-idempotency",
+      "source": "domain-engineering",
+      "target": "engineering-idempotency",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-engineering-retries-engineering-idempotency",
+      "source": "engineering-retries",
+      "target": "engineering-idempotency",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-consistency",
+      "source": "domain-engineering",
+      "target": "engineering-consistency",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-engineering-idempotency-engineering-consistency",
+      "source": "engineering-idempotency",
+      "target": "engineering-consistency",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-resilience",
+      "source": "domain-engineering",
+      "target": "engineering-resilience",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-engineering-engineering-architecture",
+      "source": "domain-engineering",
+      "target": "engineering-architecture",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-engineering-resilience-engineering-architecture",
+      "source": "engineering-resilience",
+      "target": "engineering-architecture",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ai-ai-ai",
+      "source": "domain-ai",
+      "target": "ai-ai",
+      "type": "belongs_to",
+      "strength": 0.79,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-ai-ai-llms",
+      "source": "domain-ai",
+      "target": "ai-llms",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ai-ai-ai-llms",
+      "source": "ai-ai",
+      "target": "ai-llms",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ai-ai-ai-infrastructure",
+      "source": "domain-ai",
+      "target": "ai-ai-infrastructure",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ai-llms-ai-ai-infrastructure",
+      "source": "ai-llms",
+      "target": "ai-ai-infrastructure",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ai-ai-embeddings",
+      "source": "domain-ai",
+      "target": "ai-embeddings",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-ai-ai-agents",
+      "source": "domain-ai",
+      "target": "ai-agents",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ai-embeddings-ai-agents",
+      "source": "ai-embeddings",
+      "target": "ai-agents",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ai-ai-rag",
+      "source": "domain-ai",
+      "target": "ai-rag",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ai-agents-ai-rag",
+      "source": "ai-agents",
+      "target": "ai-rag",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ai-ai-ai-coding",
+      "source": "domain-ai",
+      "target": "ai-ai-coding",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-ai-ai-machine-learning",
+      "source": "domain-ai",
+      "target": "ai-machine-learning",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ai-ai-coding-ai-machine-learning",
+      "source": "ai-ai-coding",
+      "target": "ai-machine-learning",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ai-ai-human-ai-interaction",
+      "source": "domain-ai",
+      "target": "ai-human-ai-interaction",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ai-machine-learning-ai-human-ai-interaction",
+      "source": "ai-machine-learning",
+      "target": "ai-human-ai-interaction",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ai-ai-evaluation",
+      "source": "domain-ai",
+      "target": "ai-evaluation",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-ai-ai-tool-use",
+      "source": "domain-ai",
+      "target": "ai-tool-use",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ai-evaluation-ai-tool-use",
+      "source": "ai-evaluation",
+      "target": "ai-tool-use",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ai-ai-context-engineering",
+      "source": "domain-ai",
+      "target": "ai-context-engineering",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ai-tool-use-ai-context-engineering",
+      "source": "ai-tool-use",
+      "target": "ai-context-engineering",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ai-ai-model-behavior",
+      "source": "domain-ai",
+      "target": "ai-model-behavior",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-ai-ai-retrieval",
+      "source": "domain-ai",
+      "target": "ai-retrieval",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ai-model-behavior-ai-retrieval",
+      "source": "ai-model-behavior",
+      "target": "ai-retrieval",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ai-ai-ai-safety",
+      "source": "domain-ai",
+      "target": "ai-ai-safety",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ai-retrieval-ai-ai-safety",
+      "source": "ai-retrieval",
+      "target": "ai-ai-safety",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ai-ai-reasoning-systems",
+      "source": "domain-ai",
+      "target": "ai-reasoning-systems",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-ai-ai-intelligence-interfaces",
+      "source": "domain-ai",
+      "target": "ai-intelligence-interfaces",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ai-reasoning-systems-ai-intelligence-interfaces",
+      "source": "ai-reasoning-systems",
+      "target": "ai-intelligence-interfaces",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-business-business-startups",
+      "source": "domain-business",
+      "target": "business-startups",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-business-business-saas",
+      "source": "domain-business",
+      "target": "business-saas",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-business-startups-business-saas",
+      "source": "business-startups",
+      "target": "business-saas",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-business-business-sales",
+      "source": "domain-business",
+      "target": "business-sales",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-business-saas-business-sales",
+      "source": "business-saas",
+      "target": "business-sales",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-business-business-marketing",
+      "source": "domain-business",
+      "target": "business-marketing",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-business-business-product",
+      "source": "domain-business",
+      "target": "business-product",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-business-marketing-business-product",
+      "source": "business-marketing",
+      "target": "business-product",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-business-business-entrepreneurship",
+      "source": "domain-business",
+      "target": "business-entrepreneurship",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-business-product-business-entrepreneurship",
+      "source": "business-product",
+      "target": "business-entrepreneurship",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-business-business-leverage",
+      "source": "domain-business",
+      "target": "business-leverage",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-business-business-strategy",
+      "source": "domain-business",
+      "target": "business-strategy",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-business-leverage-business-strategy",
+      "source": "business-leverage",
+      "target": "business-strategy",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-business-business-distribution",
+      "source": "domain-business",
+      "target": "business-distribution",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-business-strategy-business-distribution",
+      "source": "business-strategy",
+      "target": "business-distribution",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-business-business-customer-research",
+      "source": "domain-business",
+      "target": "business-customer-research",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-business-business-pricing",
+      "source": "domain-business",
+      "target": "business-pricing",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-business-customer-research-business-pricing",
+      "source": "business-customer-research",
+      "target": "business-pricing",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-business-business-positioning",
+      "source": "domain-business",
+      "target": "business-positioning",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-business-pricing-business-positioning",
+      "source": "business-pricing",
+      "target": "business-positioning",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-business-business-network-effects",
+      "source": "domain-business",
+      "target": "business-network-effects",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-business-business-founder-craft",
+      "source": "domain-business",
+      "target": "business-founder-craft",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-business-network-effects-business-founder-craft",
+      "source": "business-network-effects",
+      "target": "business-founder-craft",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-business-business-operations",
+      "source": "domain-business",
+      "target": "business-operations",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-business-founder-craft-business-operations",
+      "source": "business-founder-craft",
+      "target": "business-operations",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-business-business-independent-business",
+      "source": "domain-business",
+      "target": "business-independent-business",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-economics-economics-investing",
+      "source": "domain-economics",
+      "target": "economics-investing",
+      "type": "belongs_to",
+      "strength": 0.79,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-economics-economics-economics",
+      "source": "domain-economics",
+      "target": "economics-economics",
+      "type": "belongs_to",
+      "strength": 0.79,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-economics-investing-economics-economics",
+      "source": "economics-investing",
+      "target": "economics-economics",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-economics-economics-markets",
+      "source": "domain-economics",
+      "target": "economics-markets",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-economics-economics-economics-markets",
+      "source": "economics-economics",
+      "target": "economics-markets",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-economics-economics-capital-allocation",
+      "source": "domain-economics",
+      "target": "economics-capital-allocation",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-economics-economics-fintech",
+      "source": "domain-economics",
+      "target": "economics-fintech",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-economics-capital-allocation-economics-fintech",
+      "source": "economics-capital-allocation",
+      "target": "economics-fintech",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-economics-economics-compounding",
+      "source": "domain-economics",
+      "target": "economics-compounding",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-economics-fintech-economics-compounding",
+      "source": "economics-fintech",
+      "target": "economics-compounding",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-economics-economics-business-models",
+      "source": "domain-economics",
+      "target": "economics-business-models",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-economics-economics-market-structure",
+      "source": "domain-economics",
+      "target": "economics-market-structure",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-economics-business-models-economics-market-structure",
+      "source": "economics-business-models",
+      "target": "economics-market-structure",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-economics-economics-payments",
+      "source": "domain-economics",
+      "target": "economics-payments",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-economics-market-structure-economics-payments",
+      "source": "economics-market-structure",
+      "target": "economics-payments",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-economics-economics-banking",
+      "source": "domain-economics",
+      "target": "economics-banking",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-economics-economics-financial-ledgers",
+      "source": "domain-economics",
+      "target": "economics-financial-ledgers",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-economics-banking-economics-financial-ledgers",
+      "source": "economics-banking",
+      "target": "economics-financial-ledgers",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-economics-economics-settlement",
+      "source": "domain-economics",
+      "target": "economics-settlement",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-economics-financial-ledgers-economics-settlement",
+      "source": "economics-financial-ledgers",
+      "target": "economics-settlement",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-economics-economics-portfolio-systems",
+      "source": "domain-economics",
+      "target": "economics-portfolio-systems",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-economics-economics-risk",
+      "source": "domain-economics",
+      "target": "economics-risk",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-economics-portfolio-systems-economics-risk",
+      "source": "economics-portfolio-systems",
+      "target": "economics-risk",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-economics-economics-behavioral-finance",
+      "source": "domain-economics",
+      "target": "economics-behavioral-finance",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-economics-risk-economics-behavioral-finance",
+      "source": "economics-risk",
+      "target": "economics-behavioral-finance",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-economics-economics-incentives",
+      "source": "domain-economics",
+      "target": "economics-incentives",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-economics-economics-game-theory",
+      "source": "domain-economics",
+      "target": "economics-game-theory",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-economics-incentives-economics-game-theory",
+      "source": "economics-incentives",
+      "target": "economics-game-theory",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-economics-economics-market-data",
+      "source": "domain-economics",
+      "target": "economics-market-data",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-economics-game-theory-economics-market-data",
+      "source": "economics-game-theory",
+      "target": "economics-market-data",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-systems-thinking",
+      "source": "domain-ideas",
+      "target": "ideas-systems-thinking",
+      "type": "belongs_to",
+      "strength": 0.79,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-human-potential",
+      "source": "domain-ideas",
+      "target": "ideas-human-potential",
+      "type": "belongs_to",
+      "strength": 0.79,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ideas-systems-thinking-ideas-human-potential",
+      "source": "ideas-systems-thinking",
+      "target": "ideas-human-potential",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-learning",
+      "source": "domain-ideas",
+      "target": "ideas-learning",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ideas-human-potential-ideas-learning",
+      "source": "ideas-human-potential",
+      "target": "ideas-learning",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-creativity",
+      "source": "domain-ideas",
+      "target": "ideas-creativity",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-technology",
+      "source": "domain-ideas",
+      "target": "ideas-technology",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ideas-creativity-ideas-technology",
+      "source": "ideas-creativity",
+      "target": "ideas-technology",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-innovation",
+      "source": "domain-ideas",
+      "target": "ideas-innovation",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ideas-technology-ideas-innovation",
+      "source": "ideas-technology",
+      "target": "ideas-innovation",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-decision-making",
+      "source": "domain-ideas",
+      "target": "ideas-decision-making",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-identity",
+      "source": "domain-ideas",
+      "target": "ideas-identity",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ideas-decision-making-ideas-identity",
+      "source": "ideas-decision-making",
+      "target": "ideas-identity",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-curiosity",
+      "source": "domain-ideas",
+      "target": "ideas-curiosity",
+      "type": "belongs_to",
+      "strength": 0.79,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ideas-identity-ideas-curiosity",
+      "source": "ideas-identity",
+      "target": "ideas-curiosity",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-agency",
+      "source": "domain-ideas",
+      "target": "ideas-agency",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-mental-models",
+      "source": "domain-ideas",
+      "target": "ideas-mental-models",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ideas-agency-ideas-mental-models",
+      "source": "ideas-agency",
+      "target": "ideas-mental-models",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-second-order-effects",
+      "source": "domain-ideas",
+      "target": "ideas-second-order-effects",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ideas-mental-models-ideas-second-order-effects",
+      "source": "ideas-mental-models",
+      "target": "ideas-second-order-effects",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-complexity",
+      "source": "domain-ideas",
+      "target": "ideas-complexity",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-emergence",
+      "source": "domain-ideas",
+      "target": "ideas-emergence",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ideas-complexity-ideas-emergence",
+      "source": "ideas-complexity",
+      "target": "ideas-emergence",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-direction",
+      "source": "domain-ideas",
+      "target": "ideas-direction",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ideas-emergence-ideas-direction",
+      "source": "ideas-emergence",
+      "target": "ideas-direction",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-personal-knowledge",
+      "source": "domain-ideas",
+      "target": "ideas-personal-knowledge",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-ideas-ideas-taste",
+      "source": "domain-ideas",
+      "target": "ideas-taste",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-ideas-personal-knowledge-ideas-taste",
+      "source": "ideas-personal-knowledge",
+      "target": "ideas-taste",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-culture-culture-music",
+      "source": "domain-culture",
+      "target": "culture-music",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-culture-culture-design",
+      "source": "domain-culture",
+      "target": "culture-design",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-culture-music-culture-design",
+      "source": "culture-music",
+      "target": "culture-design",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-culture-culture-photography",
+      "source": "domain-culture",
+      "target": "culture-photography",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-culture-design-culture-photography",
+      "source": "culture-design",
+      "target": "culture-photography",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-culture-culture-art",
+      "source": "domain-culture",
+      "target": "culture-art",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-culture-culture-digital-experiences",
+      "source": "domain-culture",
+      "target": "culture-digital-experiences",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-culture-art-culture-digital-experiences",
+      "source": "culture-art",
+      "target": "culture-digital-experiences",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-culture-culture-storytelling",
+      "source": "domain-culture",
+      "target": "culture-storytelling",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-culture-digital-experiences-culture-storytelling",
+      "source": "culture-digital-experiences",
+      "target": "culture-storytelling",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-culture-culture-typography",
+      "source": "domain-culture",
+      "target": "culture-typography",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-culture-culture-interaction-design",
+      "source": "domain-culture",
+      "target": "culture-interaction-design",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-culture-typography-culture-interaction-design",
+      "source": "culture-typography",
+      "target": "culture-interaction-design",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-culture-culture-editorial-design",
+      "source": "domain-culture",
+      "target": "culture-editorial-design",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-culture-interaction-design-culture-editorial-design",
+      "source": "culture-interaction-design",
+      "target": "culture-editorial-design",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-culture-culture-museums",
+      "source": "domain-culture",
+      "target": "culture-museums",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-culture-culture-sound",
+      "source": "domain-culture",
+      "target": "culture-sound",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-culture-museums-culture-sound",
+      "source": "culture-museums",
+      "target": "culture-sound",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-culture-culture-albums",
+      "source": "domain-culture",
+      "target": "culture-albums",
+      "type": "belongs_to",
+      "strength": 0.565,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-culture-sound-culture-albums",
+      "source": "culture-sound",
+      "target": "culture-albums",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-culture-culture-visual-culture",
+      "source": "domain-culture",
+      "target": "culture-visual-culture",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-culture-culture-aesthetics",
+      "source": "domain-culture",
+      "target": "culture-aesthetics",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-culture-visual-culture-culture-aesthetics",
+      "source": "culture-visual-culture",
+      "target": "culture-aesthetics",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-culture-culture-creative-direction",
+      "source": "domain-culture",
+      "target": "culture-creative-direction",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-culture-aesthetics-culture-creative-direction",
+      "source": "culture-aesthetics",
+      "target": "culture-creative-direction",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-culture-culture-information-design",
+      "source": "domain-culture",
+      "target": "culture-information-design",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-world-world-geopolitics",
+      "source": "domain-world",
+      "target": "world-geopolitics",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-world-world-history",
+      "source": "domain-world",
+      "target": "world-history",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-world-geopolitics-world-history",
+      "source": "world-geopolitics",
+      "target": "world-history",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-world-world-society",
+      "source": "domain-world",
+      "target": "world-society",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-world-history-world-society",
+      "source": "world-history",
+      "target": "world-society",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-world-world-infrastructure",
+      "source": "domain-world",
+      "target": "world-infrastructure",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-world-world-global-trade",
+      "source": "domain-world",
+      "target": "world-global-trade",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-world-infrastructure-world-global-trade",
+      "source": "world-infrastructure",
+      "target": "world-global-trade",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-world-world-institutions",
+      "source": "domain-world",
+      "target": "world-institutions",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-world-global-trade-world-institutions",
+      "source": "world-global-trade",
+      "target": "world-institutions",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-world-world-energy",
+      "source": "domain-world",
+      "target": "world-energy",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-world-world-supply-chains",
+      "source": "domain-world",
+      "target": "world-supply-chains",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-world-energy-world-supply-chains",
+      "source": "world-energy",
+      "target": "world-supply-chains",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-world-world-demographics",
+      "source": "domain-world",
+      "target": "world-demographics",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-world-supply-chains-world-demographics",
+      "source": "world-supply-chains",
+      "target": "world-demographics",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-world-world-cities",
+      "source": "domain-world",
+      "target": "world-cities",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-world-world-power",
+      "source": "domain-world",
+      "target": "world-power",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-world-cities-world-power",
+      "source": "world-cities",
+      "target": "world-power",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-world-world-technology-policy",
+      "source": "domain-world",
+      "target": "world-technology-policy",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-world-power-world-technology-policy",
+      "source": "world-power",
+      "target": "world-technology-policy",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-world-world-industrial-capacity",
+      "source": "domain-world",
+      "target": "world-industrial-capacity",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-world-world-climate",
+      "source": "domain-world",
+      "target": "world-climate",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-world-industrial-capacity-world-climate",
+      "source": "world-industrial-capacity",
+      "target": "world-climate",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-world-world-international-relations",
+      "source": "domain-world",
+      "target": "world-international-relations",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-world-climate-world-international-relations",
+      "source": "world-climate",
+      "target": "world-international-relations",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-world-world-political-economy",
+      "source": "domain-world",
+      "target": "world-political-economy",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-health-health-strength",
+      "source": "domain-health",
+      "target": "health-strength",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-health-health-running",
+      "source": "domain-health",
+      "target": "health-running",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-health-strength-health-running",
+      "source": "health-strength",
+      "target": "health-running",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-health-health-recovery",
+      "source": "domain-health",
+      "target": "health-recovery",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-health-running-health-recovery",
+      "source": "health-running",
+      "target": "health-recovery",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-health-health-sleep",
+      "source": "domain-health",
+      "target": "health-sleep",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-health-health-longevity",
+      "source": "domain-health",
+      "target": "health-longevity",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-health-sleep-health-longevity",
+      "source": "health-sleep",
+      "target": "health-longevity",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-health-health-nutrition",
+      "source": "domain-health",
+      "target": "health-nutrition",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-health-longevity-health-nutrition",
+      "source": "health-longevity",
+      "target": "health-nutrition",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-health-health-mobility",
+      "source": "domain-health",
+      "target": "health-mobility",
+      "type": "belongs_to",
+      "strength": 0.565,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-health-health-stress",
+      "source": "domain-health",
+      "target": "health-stress",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-health-mobility-health-stress",
+      "source": "health-mobility",
+      "target": "health-stress",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-health-health-energy-management",
+      "source": "domain-health",
+      "target": "health-energy-management",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-health-stress-health-energy-management",
+      "source": "health-stress",
+      "target": "health-energy-management",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-health-health-habits",
+      "source": "domain-health",
+      "target": "health-habits",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-health-health-adaptation",
+      "source": "domain-health",
+      "target": "health-adaptation",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-health-habits-health-adaptation",
+      "source": "health-habits",
+      "target": "health-adaptation",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-health-health-endurance",
+      "source": "domain-health",
+      "target": "health-endurance",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-health-adaptation-health-endurance",
+      "source": "health-adaptation",
+      "target": "health-endurance",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-health-health-focus",
+      "source": "domain-health",
+      "target": "health-focus",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-health-health-wellbeing",
+      "source": "domain-health",
+      "target": "health-wellbeing",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-health-focus-health-wellbeing",
+      "source": "health-focus",
+      "target": "health-wellbeing",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-communication-communication-writing",
+      "source": "domain-communication",
+      "target": "communication-writing",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-communication-communication-teaching",
+      "source": "domain-communication",
+      "target": "communication-teaching",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-communication-writing-communication-teaching",
+      "source": "communication-writing",
+      "target": "communication-teaching",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-communication-communication-content",
+      "source": "domain-communication",
+      "target": "communication-content",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-communication-teaching-communication-content",
+      "source": "communication-teaching",
+      "target": "communication-content",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-communication-communication-research",
+      "source": "domain-communication",
+      "target": "communication-research",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-communication-communication-explanation",
+      "source": "domain-communication",
+      "target": "communication-explanation",
+      "type": "belongs_to",
+      "strength": 0.7,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-communication-research-communication-explanation",
+      "source": "communication-research",
+      "target": "communication-explanation",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-communication-communication-essays",
+      "source": "domain-communication",
+      "target": "communication-essays",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-communication-explanation-communication-essays",
+      "source": "communication-explanation",
+      "target": "communication-essays",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-communication-communication-public-thinking",
+      "source": "domain-communication",
+      "target": "communication-public-thinking",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-communication-communication-synthesis",
+      "source": "domain-communication",
+      "target": "communication-synthesis",
+      "type": "belongs_to",
+      "strength": 0.745,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-communication-public-thinking-communication-synthesis",
+      "source": "communication-public-thinking",
+      "target": "communication-synthesis",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-communication-communication-argument",
+      "source": "domain-communication",
+      "target": "communication-argument",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-communication-synthesis-communication-argument",
+      "source": "communication-synthesis",
+      "target": "communication-argument",
+      "type": "relates_to",
+      "strength": 0.28,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-communication-communication-knowledge-sharing",
+      "source": "domain-communication",
+      "target": "communication-knowledge-sharing",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-communication-communication-visual-explanation",
+      "source": "domain-communication",
+      "target": "communication-visual-explanation",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-communication-knowledge-sharing-communication-visual-explanation",
+      "source": "communication-knowledge-sharing",
+      "target": "communication-visual-explanation",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-communication-communication-audience",
+      "source": "domain-communication",
+      "target": "communication-audience",
+      "type": "belongs_to",
+      "strength": 0.6100000000000001,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-communication-visual-explanation-communication-audience",
+      "source": "communication-visual-explanation",
+      "target": "communication-audience",
+      "type": "relates_to",
+      "strength": 0.55,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-communication-communication-editing",
+      "source": "domain-communication",
+      "target": "communication-editing",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-domain-communication-communication-interviewing",
+      "source": "domain-communication",
+      "target": "communication-interviewing",
+      "type": "belongs_to",
+      "strength": 0.565,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-communication-editing-communication-interviewing",
+      "source": "communication-editing",
+      "target": "communication-interviewing",
+      "type": "relates_to",
+      "strength": 0.37,
+      "provenance": "observed"
+    },
+    {
+      "id": "edge-domain-communication-communication-documentation",
+      "source": "domain-communication",
+      "target": "communication-documentation",
+      "type": "belongs_to",
+      "strength": 0.655,
+      "provenance": "curated"
+    },
+    {
+      "id": "edge-communication-interviewing-communication-documentation",
+      "source": "communication-interviewing",
+      "target": "communication-documentation",
+      "type": "relates_to",
+      "strength": 0.46,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-0-engineering-backend-development-with-spring-boot-engineering-distributed-systems",
+      "source": "engineering-backend-development-with-spring-boot",
+      "target": "engineering-distributed-systems",
+      "type": "relates_to",
+      "strength": 0.9,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-1-engineering-rabbitmq-engineering-event-driven-systems",
+      "source": "engineering-rabbitmq",
+      "target": "engineering-event-driven-systems",
+      "type": "relates_to",
+      "strength": 0.95,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-2-engineering-event-driven-systems-economics-financial-ledgers",
+      "source": "engineering-event-driven-systems",
+      "target": "economics-financial-ledgers",
+      "type": "relates_to",
+      "strength": 0.77,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-3-engineering-apis-economics-fintech",
+      "source": "engineering-apis",
+      "target": "economics-fintech",
+      "type": "relates_to",
+      "strength": 0.68,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-4-ai-ai-ai-human-ai-interaction",
+      "source": "ai-ai",
+      "target": "ai-human-ai-interaction",
+      "type": "relates_to",
+      "strength": 0.88,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-5-ai-ai-economics-investing",
+      "source": "ai-ai",
+      "target": "economics-investing",
+      "type": "relates_to",
+      "strength": 0.56,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-6-ai-ai-infrastructure-engineering-cloud",
+      "source": "ai-ai-infrastructure",
+      "target": "engineering-cloud",
+      "type": "relates_to",
+      "strength": 0.81,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-7-ai-embeddings-ideas-personal-knowledge",
+      "source": "ai-embeddings",
+      "target": "ideas-personal-knowledge",
+      "type": "relates_to",
+      "strength": 0.74,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-8-ai-intelligence-interfaces-culture-information-design",
+      "source": "ai-intelligence-interfaces",
+      "target": "culture-information-design",
+      "type": "relates_to",
+      "strength": 0.91,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-9-business-product-culture-interaction-design",
+      "source": "business-product",
+      "target": "culture-interaction-design",
+      "type": "relates_to",
+      "strength": 0.72,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-10-business-startups-ideas-technology",
+      "source": "business-startups",
+      "target": "ideas-technology",
+      "type": "relates_to",
+      "strength": 0.7,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-11-business-strategy-ideas-decision-making",
+      "source": "business-strategy",
+      "target": "ideas-decision-making",
+      "type": "relates_to",
+      "strength": 0.79,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-12-economics-economics-world-geopolitics",
+      "source": "economics-economics",
+      "target": "world-geopolitics",
+      "type": "relates_to",
+      "strength": 0.84,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-13-economics-markets-world-global-trade",
+      "source": "economics-markets",
+      "target": "world-global-trade",
+      "type": "relates_to",
+      "strength": 0.66,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-14-economics-compounding-ideas-human-potential",
+      "source": "economics-compounding",
+      "target": "ideas-human-potential",
+      "type": "relates_to",
+      "strength": 0.89,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-15-economics-incentives-world-institutions",
+      "source": "economics-incentives",
+      "target": "world-institutions",
+      "type": "relates_to",
+      "strength": 0.83,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-16-ideas-systems-thinking-engineering-distributed-systems",
+      "source": "ideas-systems-thinking",
+      "target": "engineering-distributed-systems",
+      "type": "relates_to",
+      "strength": 0.84,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-17-ideas-systems-thinking-economics-economics",
+      "source": "ideas-systems-thinking",
+      "target": "economics-economics",
+      "type": "relates_to",
+      "strength": 0.78,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-18-ideas-learning-communication-teaching",
+      "source": "ideas-learning",
+      "target": "communication-teaching",
+      "type": "relates_to",
+      "strength": 0.9,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-19-ideas-creativity-culture-music",
+      "source": "ideas-creativity",
+      "target": "culture-music",
+      "type": "relates_to",
+      "strength": 0.69,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-20-ideas-identity-culture-storytelling",
+      "source": "ideas-identity",
+      "target": "culture-storytelling",
+      "type": "relates_to",
+      "strength": 0.72,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-21-ideas-taste-culture-design",
+      "source": "ideas-taste",
+      "target": "culture-design",
+      "type": "relates_to",
+      "strength": 0.91,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-22-communication-research-world-geopolitics",
+      "source": "communication-research",
+      "target": "world-geopolitics",
+      "type": "relates_to",
+      "strength": 0.65,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-23-communication-synthesis-ideas-systems-thinking",
+      "source": "communication-synthesis",
+      "target": "ideas-systems-thinking",
+      "type": "relates_to",
+      "strength": 0.88,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-24-communication-writing-communication-public-thinking",
+      "source": "communication-writing",
+      "target": "communication-public-thinking",
+      "type": "relates_to",
+      "strength": 0.87,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-26-health-sleep-health-energy-management",
+      "source": "health-sleep",
+      "target": "health-energy-management",
+      "type": "relates_to",
+      "strength": 0.87,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-27-health-longevity-economics-compounding",
+      "source": "health-longevity",
+      "target": "economics-compounding",
+      "type": "relates_to",
+      "strength": 0.74,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-28-world-infrastructure-engineering-distributed-systems",
+      "source": "world-infrastructure",
+      "target": "engineering-distributed-systems",
+      "type": "relates_to",
+      "strength": 0.63,
+      "provenance": "observed"
+    },
+    {
+      "id": "cross-29-world-political-economy-economics-economics",
+      "source": "world-political-economy",
+      "target": "economics-economics",
+      "type": "relates_to",
+      "strength": 0.92,
+      "provenance": "observed"
+    },
+    {
+      "id": "project-edge-0-0",
+      "source": "project-skill-stack",
+      "target": "ai-ai",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-0-1",
+      "source": "project-skill-stack",
+      "target": "engineering-system-design",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-0-2",
+      "source": "project-skill-stack",
+      "target": "ideas-human-potential",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-0-3",
+      "source": "project-skill-stack",
+      "target": "ideas-identity",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-0-4",
+      "source": "project-skill-stack",
+      "target": "culture-information-design",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-1-0",
+      "source": "project-music-room",
+      "target": "culture-music",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-1-1",
+      "source": "project-music-room",
+      "target": "culture-digital-experiences",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-1-2",
+      "source": "project-music-room",
+      "target": "culture-design",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-1-3",
+      "source": "project-music-room",
+      "target": "ideas-technology",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-2-0",
+      "source": "project-world",
+      "target": "world-geopolitics",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-2-1",
+      "source": "project-world",
+      "target": "economics-economics",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-2-2",
+      "source": "project-world",
+      "target": "ai-ai",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-2-3",
+      "source": "project-world",
+      "target": "economics-investing",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-2-4",
+      "source": "project-world",
+      "target": "ideas-second-order-effects",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-3-0",
+      "source": "project-compound",
+      "target": "ideas-human-potential",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-3-1",
+      "source": "project-compound",
+      "target": "economics-compounding",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-3-2",
+      "source": "project-compound",
+      "target": "ideas-systems-thinking",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-3-3",
+      "source": "project-compound",
+      "target": "domain-health",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-4-0",
+      "source": "project-distributed-lab",
+      "target": "engineering-distributed-systems",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-4-1",
+      "source": "project-distributed-lab",
+      "target": "communication-teaching",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-4-2",
+      "source": "project-distributed-lab",
+      "target": "communication-visual-explanation",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-4-3",
+      "source": "project-distributed-lab",
+      "target": "engineering-observability",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-5-0",
+      "source": "project-incident-investigator",
+      "target": "ai-ai",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-5-1",
+      "source": "project-incident-investigator",
+      "target": "engineering-observability",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-5-2",
+      "source": "project-incident-investigator",
+      "target": "ai-ai-infrastructure",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    },
+    {
+      "id": "project-edge-5-3",
+      "source": "project-incident-investigator",
+      "target": "engineering-distributed-systems",
+      "type": "evidence_for",
+      "strength": 0.86,
+      "provenance": "curated"
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-skill-stack",
+      "name": "Skill Stack",
+      "description": "A personal system for choosing the next skill worth building.",
+      "domains": [
+        "ai",
+        "engineering",
+        "ideas",
+        "culture"
+      ],
+      "concepts": [
+        "AI",
+        "System Design",
+        "Human Potential",
+        "Identity",
+        "Information Design"
+      ],
+      "year": 2026
+    },
+    {
+      "id": "project-music-room",
+      "name": "Music Room",
+      "description": "An immersive environment for exploring an artist, album and influence graph.",
+      "domains": [
+        "culture",
+        "engineering"
+      ],
+      "concepts": [
+        "Music",
+        "Digital Experiences",
+        "Design",
+        "Technology"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "project-world",
+      "name": "World",
+      "description": "An intelligence interface for events and their second-order effects.",
+      "domains": [
+        "world",
+        "economics",
+        "ai"
+      ],
+      "concepts": [
+        "Geopolitics",
+        "Economics",
+        "AI",
+        "Investing",
+        "Second-order Effects"
+      ],
+      "year": 2026
+    },
+    {
+      "id": "project-compound",
+      "name": "Compound",
+      "description": "A map of how capital, knowledge, health and reputation compound.",
+      "domains": [
+        "ideas",
+        "economics",
+        "health"
+      ],
+      "concepts": [
+        "Human Potential",
+        "Compounding",
+        "Systems Thinking",
+        "Health"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "project-distributed-lab",
+      "name": "Distributed Systems Lab",
+      "description": "An educational environment for observing systems under failure.",
+      "domains": [
+        "engineering",
+        "communication",
+        "culture"
+      ],
+      "concepts": [
+        "Distributed Systems",
+        "Teaching",
+        "Visual Explanation",
+        "Observability"
+      ],
+      "year": 2024
+    },
+    {
+      "id": "project-incident-investigator",
+      "name": "AI Incident Investigator",
+      "description": "A concept for investigating incidents across logs, metrics and deployments.",
+      "domains": [
+        "ai",
+        "engineering"
+      ],
+      "concepts": [
+        "AI",
+        "Observability",
+        "AI Infrastructure",
+        "Distributed Systems"
+      ],
+      "year": 2026
+    }
+  ],
+  "intersections": [
+    {
+      "id": "intersection-financial-intelligence",
+      "name": "Financial Intelligence Systems",
+      "required": [
+        "Backend development with Spring Boot",
+        "AI",
+        "Investing",
+        "Economics"
+      ],
+      "supporting": [
+        "Distributed Systems",
+        "Event-driven Systems",
+        "Markets",
+        "APIs",
+        "Market Data",
+        "Fintech",
+        "Financial Ledgers"
+      ],
+      "why": "Backend engineering and event-driven architecture intersect with AI, economics and investing.",
+      "project": "Build an event-driven investment intelligence engine.",
+      "explore": [
+        "Financial infrastructure",
+        "Market data",
+        "Portfolio systems",
+        "Payment architecture"
+      ],
+      "learn": [
+        "Double-entry ledgers",
+        "Market structure",
+        "Settlement systems"
+      ],
+      "direction": "Financial infrastructure engineering"
+    },
+    {
+      "id": "intersection-learning-studio",
+      "name": "Adaptive Learning Studio",
+      "required": [
+        "AI",
+        "Teaching",
+        "Learning",
+        "Design"
+      ],
+      "supporting": [
+        "Human-AI Interaction",
+        "Synthesis",
+        "Interaction Design",
+        "Visual Explanation"
+      ],
+      "why": "Teaching and learning become a designed, adaptive experience when paired with AI and interaction design.",
+      "project": "Prototype a visual tutor that adapts explanations to a learner's knowledge graph.",
+      "explore": [
+        "Knowledge tracing",
+        "Interactive explanation",
+        "Learning science"
+      ],
+      "learn": [
+        "Pedagogy",
+        "Model evaluation",
+        "Accessibility patterns"
+      ],
+      "direction": "AI learning experience design"
+    },
+    {
+      "id": "intersection-resilient-agency",
+      "name": "Resilient Personal Systems",
+      "required": [
+        "Systems Thinking",
+        "Health",
+        "Compounding"
+      ],
+      "supporting": [
+        "Habits",
+        "Sleep",
+        "Energy Management",
+        "Decision Making"
+      ],
+      "why": "Systems thinking connects daily energy, repeated behavior and long-term compounding.",
+      "project": "Design a quiet personal operating system centered on energy and agency.",
+      "explore": [
+        "Behavior design",
+        "Recovery systems",
+        "Personal analytics"
+      ],
+      "learn": [
+        "Circadian rhythm",
+        "Habit formation",
+        "Measurement design"
+      ],
+      "direction": "Human performance systems"
+    }
+  ]
+}

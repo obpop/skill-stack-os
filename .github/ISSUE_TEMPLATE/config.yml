@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read before opening an issue
+    url: https://github.com/oliverberggren/skill-stack#status
+    about: Skill Stack is a personal project. Issues may not get a response. Forks and reuse under MIT are welcome.

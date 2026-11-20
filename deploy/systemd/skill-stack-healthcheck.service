@@ -1,0 +1,12 @@
+[Unit]
+Description=Check Skill Stack production readiness
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=skillstack
+Group=skillstack
+WorkingDirectory=/opt/skill-stack
+EnvironmentFile=/etc/skill-stack/operations.env
+ExecStart=/bin/sh /opt/skill-stack/deploy/scripts/healthcheck.sh
+NoNewPrivileges=true
