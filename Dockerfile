@@ -1,10 +1,10 @@
 # syntax=docker/dockerfile:1.7
-FROM node:22-bookworm-slim AS dependencies
+FROM node:25-bookworm-slim AS dependencies
 WORKDIR /app
 COPY package.json package-lock.json ./
 RUN --mount=type=cache,target=/root/.npm npm ci
 
-FROM node:22-bookworm-slim AS build
+FROM node:25-bookworm-slim AS build
 WORKDIR /app
 ENV NEXT_TELEMETRY_DISABLED=1
 ARG RELEASE_VERSION=local
@@ -23,7 +23,7 @@ COPY --from=dependencies /app/node_modules ./node_modules
 COPY . .
 RUN npm run build
 
-FROM node:22-bookworm-slim AS runtime
+FROM node:25-bookworm-slim AS runtime
 ARG RELEASE_VERSION=local
 LABEL org.opencontainers.image.title="Skill Stack frontend" \
       org.opencontainers.image.revision="${RELEASE_VERSION}"
